@@ -1,0 +1,136 @@
+body {
+  background-color: #292e36;
+  color: #edfcf8;
+  font-family: "ABeeZee", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+}
+
+.search input.search-bar {
+  outline: none;
+  border: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background-color: #7c7c7c2b;
+  font-size: 20px;
+  font-family: inherit;
+  color: white;
+  width: calc(100% - 100px);
+  height: 40px;
+}
+
+button {
+  margin: 0.5em;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background-color: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #7c7c7c8b;
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image {
+  background-image: url(https://th.bing.com/th/id/OIP.4TCXWgfu-5O0eo2EV6GWEwHaJ4?w=117&h=180&c=7&r=0&o=5&pid=1.7);
+  background-size: cover;
+  background-position: center;
+  border: 8px solid #8600c3;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.name {
+  letter-spacing: 1px;
+  font-size: xxx-large;
+  margin: 0;
+}
+
+.userid {
+  color: #c172d2;
+  font-size: xx-large;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.info > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.info > div > .icon {
+  font-size: larger;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  border-radius: 12px;
+  background-color: #2f353d;
+  width: 150px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.digit {
+  margin: 0;
+  font-size: xx-large;
+}
+
+.text {
+  margin: 0;
+  font-size: medium;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
