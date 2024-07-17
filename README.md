@@ -20,7 +20,7 @@ To run this application locally, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/github-profile-finder.git
+    git clone https://github.com/Utkarsh-Singhal-26/github-profile-viewer.git
     cd github-profile-finder
     ```
 
