@@ -6,7 +6,7 @@ This repository contains a GitHub Profile Finder built with React and the GitHub
 
 ## Live Preview
 
-Check out the live preview of the app [https://github-profile-utkarsh.netlify.app/](https://github-profile-utkarsh.netlify.app/)
+Check out the live preview of the app [https://github-profile-viewer-utkarsh.vercel.app/](https://github-profile-viewer-utkarsh.vercel.app/)
 
 ## Table of Contents
 - [Getting Started](#getting-started)
